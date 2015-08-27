@@ -1,6 +1,5 @@
 require 'capybara'
 require 'capybara/poltergeist'
-require 'pry'
 
 class ComplimentRetriever
   include Capybara::DSL
