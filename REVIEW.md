@@ -23,4 +23,4 @@ Capybara (with Poltergeist and PhantomJS headless browser), the ActiveSupport ge
 
 Lessons
 -----------------------------------------------------------------------
-For scraping data on web pages, Capybara proved to be a great choice: it has an intuitive DSL and waits for content to load. I didn't have much experience with JSON going into the project, so it was nice getting to use JSON. 
+For scraping data on web pages, Capybara proved to be a great choice: it has an intuitive DSL and waits for content to load. I didn't have much experience with JSON going into the project, so it was nice getting to use it. I found that there were a lot of special cases with the returned compliment string that I didn't initially account for. I used REGEX to account for those cases and it handles them fairly well. There are still a lot of words that get deemed 'non-words' due to using past/future tenses and variations of words.
