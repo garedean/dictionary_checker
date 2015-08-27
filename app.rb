@@ -1,5 +1,4 @@
 require 'sinatra'
-require "sinatra/json"
 require 'sinatra/reloader' if development?
 require './lib/compliment_retriever'
 require './lib/dictionary_checker'
