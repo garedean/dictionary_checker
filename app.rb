@@ -4,7 +4,6 @@ require './lib/compliment_retriever'
 require './lib/dictionary_checker'
 require './lib/ext/string'
 require 'json'
-require 'pry'
 
 get '/testing' do
   content_type :json
