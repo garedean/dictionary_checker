@@ -1,7 +1,7 @@
 # DictionaryChecker
 
 ## About
-This project encompasses a few components. The 'ComplimentRetriever' class is used to scrape the website http://emergencycompliment.com and return a compliment. After the compliment is retrieved, if the user is running the script from a Unix-based machine, the computer's dictionary will be loaded along with all words in the dictionary. The script will then return and words in the compliment phrase that are NOT present in the computer's onboard dictionary.  
+This project encompasses a few components. The 'ComplimentRetriever' class is used to scrape the website http://emergencycompliment.com and return a compliment. After the compliment is retrieved, if the user is running the script from a Unix-based machine, the computer's dictionary will be loaded along with all words in the dictionary. The script will then return any words in the compliment phrase that are NOT present in the computer's onboard dictionary. Why would anyone want to do this? For science.
 
 The current implementation is for running locally.
 
