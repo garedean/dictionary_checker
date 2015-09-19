@@ -1,7 +1,9 @@
 require 'active_support/inflector'
+require 'pry'
 
 class DictionaryChecker
   def initialize
+    @count = 0
     @dictionary = File.foreach('/usr/share/dict/words').map do |word|
       word.strip.downcase
     end
@@ -20,6 +22,7 @@ class DictionaryChecker
       found_words << word if in_dictionary?(word.singularize)
     end
 
+    binding.pry
     words - found_words
   end
 
@@ -27,6 +30,7 @@ class DictionaryChecker
 
   def in_dictionary?(target_word)
     @dictionary.each do |dictionary_word|
+      @count += 1;
       return true if dictionary_word == target_word
     end
     false

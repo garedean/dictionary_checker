@@ -7,6 +7,7 @@ gem 'capybara', '~> 2.4.4'
 gem 'poltergeist', '~> 1.6.0'
 gem 'phantomjs', '~> 1.9.8.0'
 gem 'activesupport', '~> 4.2.3'
+gem 'pry'
 
 group :development do
   gem 'rspec', '~> 3.3.0'
